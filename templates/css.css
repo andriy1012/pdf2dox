@@ -1,0 +1,8 @@
+
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .converter-box { border: 2px dashed #ccc; padding: 20px; text-align: center; }
+        .btn { background: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+        .btn:hover { background: #45a049; }
+
+
+

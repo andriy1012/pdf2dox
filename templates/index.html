@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to Word Converter</title>
+    <p>Power by Andriy bearman10</p>
+</head>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .converter-box { border: 2px dashed #ccc; padding: 20px; text-align: center; }
+        .btn { background: #4CAF50; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+        .btn:hover { background: #45a049; }
+    </style>
+</head>
+<body>
+    <h1>PDF to Word Converter</h1>
+    <form method="post" action="/convert" enctype="multipart/form-data" class="converter-box">
+        <h3>Upload PDF File</h3>
+        <input type="file" name="file" accept=".pdf" required>
+        <br><br>
+        <button type="submit" class="btn">Convert to Word</button>
+    </form>
+    <p>Note: Sabar mungkin agak lama tergantung ukuran dan max 16 mb.</p>
+</body>
+</html>
